@@ -220,25 +220,11 @@ class SignalRenderer {
     // this is a convenience funcion
     // templateClone.innerHTML = templateClone.innerHTML.replace(/\{\{(\w+)\}\}/g, (_, propName) => `<data-signal property="${propName}"></data-signal>`);
 
-    // for (const el of templateClone.querySelectorAll('data-signal')) {
-    //   el.style.border = `1px solid ${item.color}`;
-    //   el.context = item; // --> rerender, this item did not have context previously
-    // }
-    //
-    // for (const el of templateClone.querySelectorAll('data-signal[property]')) {
-    //   const attributeName = el.getAttribute('property');
-    //   /////console.log('attributeName', attributeName, item);
-    //   /////console.log('attributeValue', item[attributeName]);
-    //   el.append(item[attributeName]);
-    //   /////console.log('attributeEl', el);
-    // }
+
 
   }
 
-  // #updateValue(item, el){
-  //   const attributeName = el.getAttribute('property');
-  //   el.innerHTML = item[attributeName];
-  // }
+
 
 }
 
