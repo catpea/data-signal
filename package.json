@@ -1,6 +1,6 @@
 {
   "name": "data-signal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ensure context is assigned to outer sync only",
   "main": "DataSignal.js",
   "scripts": {
